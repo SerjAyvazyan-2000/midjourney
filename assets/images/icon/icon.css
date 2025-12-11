@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.icon-stars {
+  mask-image: url(stars.svg);
+  -webkit-mask-image: url(stars.svg);
+}
+
+.icon-reg {
+  mask-image: url(reg.svg);
+  -webkit-mask-image: url(reg.svg);
+}
+.icon-login{
+    mask-image: url(login.svg);
+  -webkit-mask-image: url(login.svg);
+}
+.icon-generate{
+    mask-image: url(generate.svg);
+  -webkit-mask-image: url(generate.svg);
+}
+.icon-about{
+    mask-image: url(about1.svg);
+  -webkit-mask-image: url(about1.svg);
+}
+.icon-settings{
+      mask-image: url(setings.svg);
+  -webkit-mask-image: url(setings.svg);
+}
+.icon-gBook{
+        mask-image: url(gBook.svg);
+  -webkit-mask-image: url(gBook.svg);
+}
+.icon-gUser{
+          mask-image: url(gUser.svg);
+  -webkit-mask-image: url(gUser.svg);
+}
