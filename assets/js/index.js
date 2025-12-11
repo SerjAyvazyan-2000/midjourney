@@ -42,22 +42,22 @@ jQuery.event.special.touchmove = {
   },
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-  const gVideo = document.querySelector("#gHeroVideo");
-  if (gVideo) {
-    const gSource = gVideo.querySelector("source");
+// document.addEventListener("DOMContentLoaded", () => {
+//   const gVideo = document.querySelector("#gHeroVideo");
+//   if (gVideo) {
+//     const gSource = gVideo.querySelector("source");
 
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        gSource.src = gSource.dataset.src;
-        gVideo.load();
-        observer.disconnect();
-      }
-    });
+//     const observer = new IntersectionObserver((entries) => {
+//       if (entries[0].isIntersecting) {
+//         gSource.src = gSource.dataset.src;
+//         gVideo.load();
+//         observer.disconnect();
+//       }
+//     });
 
-    observer.observe(gVideo);
-  }
-});
+//     observer.observe(gVideo);
+//   }
+// });
 
 document.addEventListener("DOMContentLoaded", () => {
     const items = document.querySelectorAll(".animate-item");
